@@ -2,12 +2,11 @@
 
 ### Overview
 A React-based employee management system with authentication,
-CRUD operations, filtering, and modern UI.
+CRUD operations.
 
 ### Tech Stack
 - React.js
 - React Router
-- Context API
 - LocalStorage
 
 ### Setup
