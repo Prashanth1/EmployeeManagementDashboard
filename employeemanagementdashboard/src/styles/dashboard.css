@@ -1,0 +1,19 @@
+.summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.page-title {
+margin-bottom: 15px;
+}
+
+.card {
+  padding: 24px;
+  color: white;
+  border-radius: 12px;
+}
+
+.card.total { background: var(--primary); }
+.card.active { background: var(--success); }
+.card.inactive { background: var(--danger); }

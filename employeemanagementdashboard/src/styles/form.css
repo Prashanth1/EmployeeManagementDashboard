@@ -1,0 +1,109 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  width: 420px;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.modal h2 {
+  margin-bottom: 16px;
+}
+
+.modal input:not([type="radio"]):not([type="checkbox"]),
+.modal select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
+
+/* .image-preview {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+  /* margin-bottom: 12px; */
+/* } */ */
+.image-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.image-preview img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.remove-image {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.save-btn {
+    background: #195184;
+    color: white;
+    border: none;
+    width: 55px;
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cancel-btn {
+    background: #FFC861;
+    color: black;
+    border: none;
+    width: 55px;
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}

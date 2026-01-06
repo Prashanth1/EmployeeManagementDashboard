@@ -1,0 +1,58 @@
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+}
+
+th {
+  background: #F3F4F6;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.table-header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.add-btn {
+  margin-bottom: 12px;
+  padding: 10px 16px;
+  background: var(--primary);
+  color: white;
+  border: none;
+}
+
+.print-btn {
+    margin-bottom: 12px;
+  padding: 10px 16px;
+  background: var(--primary);
+  color: white;
+  border: none;
+}
+
+.active { background: var(--success); color: white; }
+.inactive { background: var(--danger); color: white; }
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.action-icons {
+  display: flex;
+  gap: 12px;   /* space between icons */
+  align-items: center;
+}
+
+.action-icons {
+  cursor: pointer;
+  font-size: 18px;
+}
